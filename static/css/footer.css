@@ -1,0 +1,98 @@
+html{
+  font-size: calc(100vw / 18.75);
+}
+[v-cloak] {
+  display: none;
+}
+.footer-container {
+  width: 100%;
+  padding: 10px 23px 23px 23px;
+  background-color: #023757;
+}
+
+.footer-logo {
+  width: 5rem;
+  padding: 10px;
+}
+
+.footer-logo img {
+  width: 4rem;
+  height: 0.8rem;
+  margin-bottom: 21px;
+}
+
+.logo-box {
+  max-width: 14rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo p {
+  color: #fff;
+  margin-bottom: 21px;
+  font-size: 0.15rem;
+}
+.Popular-box{
+  padding: 10px;
+}
+.Popular-box ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.Popular-box ul li {
+  list-style-type: none;
+  color: #fff;
+  font-size: 0.15rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.Popular-box ul li:hover {
+  color: #537b89;
+}
+.Popular-box h3{
+  color: #fff;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 0.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.Information-box{
+  padding: 10px
+}
+.Information-box ul {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+
+
+.Information-box ul li {
+  width: 2.5rem;
+  list-style-type: none;
+  color: #fff;
+  font-size: 0.18rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.Information-box ul li:hover {
+  color: #537b89;
+}
+.Information-box h3{
+  color: #fff;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 0.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.titktok-box img{
+  width: 0.4rem;
+  height: 0.4rem;
+  z-index: 9999;
+}

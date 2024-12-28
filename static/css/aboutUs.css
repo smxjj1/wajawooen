@@ -1,0 +1,327 @@
+html {
+  font-size: calc(100vw / 18.75);
+}
+[v-cloak] {
+  display: none;
+}
+.content-body {
+  width: 100%;
+  height: 6rem;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff
+}
+
+.display-container {
+  width: 7.6rem;
+  height: 100%;
+  padding: 8px 30px 30px 30px;
+}
+
+.display-container h1 {
+  width: 6.8rem;
+  color: #2a2a2a;
+  font-size: 0.4rem;
+  font-family: "Overlock", Sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin-bottom: 0.25rem;
+}
+
+.display-container .artcle-box p {
+  color: #2a2a2a;
+  font-size: 0.2rem;
+}
+
+.display-container .artcle-box p a {
+  color: #1b99e5
+}
+
+.display-container-img {
+  width: 7.3rem;
+  height: 100%;
+  padding: 10px;
+
+}
+
+.display-container-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.display-container .artcle-box {
+  color: #fff;
+  font-family: "Catamaran", Sans-serif;
+  font-weight: 400;
+  line-height: 1.7em;
+  margin-bottom: 30px;
+  font-size: 0.2rem;
+}
+
+.elementor-button-wrapper {
+  width: 100%;
+}
+
+.elementor-button-text {
+  display: inline-block;
+  width: 3rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 0.2rem;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #ff7800;
+}
+
+.content-body-two {
+  background-color: #f3f7fc;
+  padding: 1.5rem 30px 40px 30px;
+  text-align: center;
+  font-family: "Overlock", Sans-serif;
+  font-weight: 600;
+  color: #00466f;
+  font-size: 0.3rem;
+}
+
+.content-body-two .content-box-title {
+  width: 15rem;
+  margin: 0 auto;
+  color: #00466f;
+
+}
+
+.content-body-three {
+  width: 100%;
+  background-color: #f3f7fc;
+}
+
+
+
+.content-body-three .artcle-box-three {
+  width: 100%;
+  padding: 0 0.2rem 0.2rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 0.2rem;
+  align-items: center;
+}
+
+.content-body-three .artcle-box-three p {
+  width: 15rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-body-three .artcle-box-three p a {
+  cursor: pointer;
+  color: #1b99e5;
+}
+
+
+.content-body-four {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0 0 0;
+  background-color: #fff;
+}
+
+.content-body-four .content-box-title {
+  width: 15rem;
+  margin: 0 auto;
+  color: #00466f;
+  padding: 10px;
+  font-size: 0.3rem;
+}
+
+.content-body-four .content-box-title h2 {
+  width: 15rem;
+  margin: 0 auto;
+
+}
+
+.content-body-four .content-box-artcle {
+  padding-top: 0.2rem;
+}
+
+.content-body-four .content-box-artcle p {
+  display: box;
+  /* 使元素成为弹性伸缩盒子 */
+  box-orient: vertical;
+  /* 设置盒子的垂直排列 */
+  line-clamp: 3;
+  /* 限制在3行 */
+  overflow: hidden;
+  /* 超出的文本隐藏 */
+  text-overflow: ellipsis;
+  height: 1.5rem;
+  text-align: center;
+  font-family: "Catamaran", Sans-serif;
+  font-weight: 400;
+  font-size: 0.22rem;
+}
+
+.content-body-five {
+  width: 100%;
+  height: 4.6rem;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.content-body-five .card-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-body-five .card-box .card-box-container {
+  width: 4rem;
+  height: 3.1rem;
+  box-sizing: border-box;
+}
+
+.content-body-five .card-box .card-box-container .card-box-container-child {
+  height: 100%;
+  border-radius: 15px;
+  background: url(../image/background.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.content-body-five .card-box .card-box-container .card-box-container-child .elementor-widget-wrap {
+  width: 3.75rem;
+  height: 0.6rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+}
+.icon{
+  width: 0.65rem;
+  height: 0.65rem;
+ }
+.icon-title {
+  height: 0.65rem;
+  line-height: 0.65rem;
+  color: #00466f;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 0.25rem;
+  font-weight: 700;
+}
+
+.content-body-five .card-box .card-box-container .card-box-container-child .elementor-widget-container {
+  width: 3.75rem;
+  height: 135px;
+  font-size: 0.22rem;
+  text-align: start;
+  color: #2a2a2a;
+}
+
+.flex-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex-content .img-content {
+  display: flex;
+  flex-direction: column;
+  width: 4.8rem;
+  height: 4rem;
+  text-align: center;
+
+}
+
+.flex-content .img-content img {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0.2rem auto;
+}
+
+.flex-content .img-content span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 0.3rem;
+  font-weight: 500;
+  color: #00466f;
+}
+
+.wholesale-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1.8rem;
+}
+
+.wholesale-box .img-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.12rem 0;
+}
+
+.wholesale-box .img-content img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto;
+}
+
+.wholesale-box .img-content span {
+  display: inline-block;
+  text-align: center;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 0.25rem;
+  font-weight: 500;
+  color: #00466f;
+  margin-bottom: 10px;
+  padding-top: 0.2rem;
+}
+
+.wholesale-box .img-content p {
+  width: 3.5rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+  font-family: "Catamaran", Sans-serif;
+  font-weight: 400;
+  font-size: 0.2rem
+}
+
+.content-body-six {
+  width: 100%;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.content-body-seven {
+  width: 100%;
+  padding: 0 0.2rem 0.7rem 0.2rem;
+  text-align: center;
+}
+
+.Quote-content {
+  max-width: 15rem;
+  margin: 0 auto;
+
+}
+
+.ask-for-quote {
+  width: 2.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #ff7800;
+  color: #fff;
+  font-size: 0.25rem;
+  cursor: pointer;
+}
+.ask-for-quote:hover {
+  color: #2a2a2a;
+}

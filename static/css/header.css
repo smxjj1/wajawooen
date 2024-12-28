@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[v-cloak] {
+
+  display: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-size: calc(100vw / 18.75);
+}
+
+.header-container {
+  width: 100%;
+  height: 0.8rem;
+  background: #00466f;
+  color: #fff;
+}
+
+.content {
+  max-width: 16rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content-logo {
+  width: 4rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-nav {
+  flex: 1;
+  font-size: 0.2rem;
+}
+
+.content-nav .sub-arrow {
+  display: inline-block;
+  /* 设置盒子的宽和高 */
+  width: 0.1rem;
+  height: 0.1rem;
+  /* 添加边框颜色，以及边框样式为实线*/
+  border: #fff solid;
+  /* 只添加上边框和右边框 ，下边框和左边框为0*/
+  border-width: 2px 2px 0 0;
+  /* 旋转45度 */
+  transform: rotate(45deg);
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+.content-nav li:hover .sub-arrow {
+  display: inline-block;
+  /* 设置盒子的宽和高 */
+  width: 0.1rem;
+  height: 0.1rem;
+  /* 添加边框颜色，以及边框样式为实线*/
+  border: #fce38a solid;
+  /* 只添加上边框和右边框 ，下边框和左边框为0*/
+  border-width: 2px 2px 0 0;
+  /* 旋转45度 */
+  transform: rotate(45deg);
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+.content-nav ul {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.content-nav ul li {
+  list-style-type: none;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  cursor: pointer;
+}
+
+.content-nav ul li:hover {
+  color: #fce38a;
+}
+
+.content-nav ul li {
+  position: relative;
+}
+
+/* 隐藏hover-info div */
+.hover-info {
+  display: none;
+  position: absolute;
+  top: 90%;
+  /* 放置在li元素的下方 */
+  left: -20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  white-space: nowrap;
+  /* 防止文本换行 */
+  width: 3rem;
+  height: 3rem;
+  color: rgba(0, 70, 111, .89);
+}
+
+/* 当鼠标悬停在li元素上时显示hover-info div */
+.content-nav ul li:hover .hover-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hover-info span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.hover-info span:hover {
+  background-color: #999c9f;
+}
+
+.Products-info {
+  display: none;
+  position: absolute;
+  top: 90%;
+  /* 放置在li元素的下方 */
+  left: -20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  white-space: nowrap;
+  /* 防止文本换行 */
+  width: 3rem;
+  height: 3rem;
+  color: rgba(0, 70, 111, .89);
+}
+
+/* 当鼠标悬停在li元素上时显示hover-info div */
+.content-nav ul li:hover .Products-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Products-info span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.Products-info span:hover {
+  background-color: #999c9f;
+}
+
+.Capabilities-info {
+  display: none;
+  position: absolute;
+  top: 90%;
+  /* 放置在li元素的下方 */
+  left: -20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  white-space: nowrap;
+  /* 防止文本换行 */
+  width: 3rem;
+  height: 1.4rem;
+  color: rgba(0, 70, 111, .89);
+}
+
+/* 当鼠标悬停在li元素上时显示hover-info div */
+.content-nav ul li:hover .Capabilities-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Capabilities-info span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.Capabilities-info span:hover {
+  background-color: #999c9f;
+}

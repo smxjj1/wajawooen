@@ -1,0 +1,343 @@
+html{
+  font-size: calc(100vw / 18.75);
+}
+[v-cloak] {
+  display: none;
+}
+.content-body {
+  width: 100%;
+  height: 6rem;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #1974ab
+}
+
+.display-container {
+  width: 7.6rem;
+  height: 100%;
+  padding: 8px 30px 30px 30px;
+}
+
+.display-container h1 {
+  width: 6.8rem;
+  color: #fff;
+  font-size: 0.5rem;
+  font-family: "Overlock", Sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin-bottom: 0.25rem;
+}
+
+.display-container-img {
+  width: 7.3rem;
+  height: 100%;
+  padding: 10px;
+
+}
+
+.display-container-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.display-container .artcle-box {
+  color: #fff;
+  font-family: "Catamaran", Sans-serif;
+  font-weight: 400;
+  line-height: 1.7em;
+  margin-bottom: 30px;
+  font-size: 0.2rem;
+}
+
+.elementor-button-wrapper {
+  width: 100%;
+}
+
+.elementor-button-text {
+  display: inline-block;
+  width: 3rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
+  background-color: #ff7800;
+}
+.content-body-two {
+  background-color: #f3f7fc;
+  padding: 1.5rem 30px 40px 30px;
+  text-align: center;
+  font-family: "Overlock", Sans-serif;
+  font-weight: 600;
+  color: #00466f;
+  font-size: 0.3rem;
+}
+
+.content-body-two .content-box-title {
+  width: 15rem;
+  margin: 0 auto;
+  color: #00466f;
+  
+}
+
+.content-body-three {
+  width: 100%;
+  background-color: #f3f7fc;
+}
+
+.content-body-three .content-box {
+  display: flex;
+  justify-content: center;
+}
+
+.content-body-three .artcle-box-three {
+  width: 7rem;
+  padding: 0 0.2rem 0.2rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 0.2rem;
+}
+
+.content-body-three .artcle-box-three p:first-child {
+  margin-bottom: 37px;
+}
+
+.content-body-three .artcle-box-three p:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.content-body-four {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 30px 20px 30px;
+  background-color: #f3f7fc;
+}
+
+.content-body-four .content-box-title {
+  width: 15rem;
+  margin: 0 auto;
+  color: #00466f;
+  padding: 10px;
+  margin-bottom: 1.5em;
+  font-size: 0.3rem;
+}
+.content-body-four .content-box-title h2 {
+  width: 15rem;
+  margin: 0 auto;
+  
+}
+.content-body-four .content-box-artcle {
+  padding-top: 0.2rem;
+}
+
+.content-body-four .content-box-artcle p {
+  display: box;
+  /* 使元素成为弹性伸缩盒子 */
+  box-orient: vertical;
+  /* 设置盒子的垂直排列 */
+  line-clamp: 3;
+  /* 限制在3行 */
+  overflow: hidden;
+  /* 超出的文本隐藏 */
+  text-overflow: ellipsis;
+  height: 1.5rem;
+  text-align: center;
+  font-family: "Catamaran", Sans-serif;
+  font-weight: 400;
+  font-size: 0.22rem;
+}
+
+.content-body-five {
+  width: 100%;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.flex-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex-content .img-content {
+  display: flex;
+  flex-direction: column;
+  width: 4.8rem;
+  height: 4rem;
+  text-align: center;
+  
+}
+
+.flex-content .img-content img {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0.2rem auto;
+}
+
+.flex-content .img-content span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 0.3rem;
+  font-weight: 500;
+  color: #00466f;
+}
+
+.wholesale-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  padding:0.1rem;
+}
+
+.wholesale-box .img-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.wholesale-box .img-content img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.wholesale-box .img-content span {
+  display: inline-block;
+  text-align: center;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 0.25rem;
+  font-weight: 500;
+  color: #00466f;
+  margin-bottom: 10px;
+}
+
+.wholesale-box .img-content p {
+  width: 3.5rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+  font-family: "Catamaran", Sans-serif;
+  font-weight: 400;
+  font-size: 0.2rem
+}
+
+.content-body-six {
+  width: 100%;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.content-body-seven {
+  width: 100%;
+  padding: 0 0.2rem 0.7rem 0.2rem;
+  text-align: center;
+}
+
+.Quote-content {
+  max-width: 15rem;
+  margin: 0 auto;
+
+}
+
+.ask-for-quote {
+  width: 2.5rem;
+  height: 0.5rem;
+  line-height:  0.5rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #ff7800;
+  color: #fff;
+  font-size: 0.2rem;
+}
+.ask-for-quote:hover {
+  color: #2a2a2a;
+}
+.content-body-eight{
+  width: 100%;
+  background-color: transparent;
+  background-image: linear-gradient(145deg, #1974ab 0%, #045281 100%);
+  padding: 0.98rem 0;
+}
+.content-body-eight .content-box-title{
+  width: 80%;
+  margin: 0 auto;
+  height: 3.2rem;
+}
+.content-body-eight .content-box-title h2{
+  width: 100%;
+  color: #fff;
+  font-size: 0.4rem; 
+}
+.content-body-eight .content-box-title p{
+  width: 100%;
+  padding-top: 0.3rem;
+  color: #fff;
+  font-size: 0.2rem; 
+  text-align: start;
+  margin-bottom: 0.3rem;
+}
+.content-body-night {
+  width: 100%;
+  padding: 1.2rem 0 0.2rem 0;
+}
+.content-body-night  .content-box-title{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.content-body-night  .content-box-title h2{
+  width: 100%;
+  color: #1974ab;
+  font-size: 0.4rem; 
+  text-align: center;
+  height: 0.8rem;
+  padding: 10px 0;
+}
+
+.content-body-ten {
+  width: 100%;
+  background-color: transparent;
+  background-image: linear-gradient(145deg, #1974ab 0%, #045281 100%);
+  padding: 0.86rem;
+}
+.content-body-ten .content-box-title{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  
+}
+.content-body-ten .content-box-title h2{
+  width: 7.2rem;
+  color: #fff;
+  font-size: 0.4rem; 
+}
+.content-body-ten .content-box-title .elementor-button-wrapper{
+  width: 7.2rem;
+  color: #fff;
+  font-size: 0.4rem; 
+  padding-top: 0.2rem;
+  text-align: center;
+}
+.content-body-ten .content-box-title .elementor-button-wrapper .elementor-button-text{
+  display: inline-block;
+  width: 2.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Catamaran", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
+  background-color: #ff7800;
+}
+
+

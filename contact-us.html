@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WAJA WOOD</title>
+  <link rel="stylesheet" href="./static/css/header.css">
+  <link rel="stylesheet" href="./static/css/contact-us.css">
+  <link rel="stylesheet" href="./static/css/footer.css">
+</head>
+
+<body>
+  <header id="common-header" style="height: 0.8rem;"></header>
+  <!-- 引入ES6模块 -->
+  <script type="module">
+    import { createHeaderElement } from './common/header.js';
+    const container = document.getElementById('common-header');
+    if (container) {
+      container.appendChild(createHeaderElement());
+    }
+
+  </script>
+  <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+      <div class="contact-left-title">
+        <h2>Get in touch</h2>
+        <hr>
+      </div>
+      <input type="hidden" name="access_key" value="42d24c85-9db8-45d9-aa22-035769772a82">
+      <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+      <input type="text" name="phone" oninput="value=value.replace(/[^\d]/g,'')" placeholder="Your phone"
+        class="contact-inputs" required>
+      <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
+      <input type="text" name="address" placeholder="Your delivery address" class="contact-inputs" required>
+      <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+      <button>Submit</button>
+    </form>
+    <div class="contact-right"></div>
+  </div>
+
+  <section>
+    <footer id="common-footer"></footer>
+  </section>
+  <script type="module">
+    import { createFooterElement } from './common/footer.js';
+
+    // 获取容器元素并插入共同元素
+    const footerContainer = document.getElementById('common-footer');
+    if (footerContainer) {
+      footerContainer.appendChild(createFooterElement());
+    }
+  </script>
+</body>
+
+</html>

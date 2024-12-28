@@ -1,0 +1,75 @@
+html {
+  font-size: calc(100vw / 18.75);
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.contact-container {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #47688d;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-left-title h2 {
+  font-weight: 600;
+  color: #fce38a;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.contact-left-title hr {
+  border: none;
+  width: 2.5rem;
+  height: 5px;
+  background-color: #fce38a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-inputs {
+  width: 5rem;
+  height: 0.5rem;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  color: #666;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.contact-left textarea {
+  height: 1.2rem;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contact-inputs:focus {
+  border: 2px solid #ff994f;
+}
+
+.contact-inputs::placeholder {
+  color: #a9a9a9
+}
+
+.contact-left button {
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  cursor: pointer;
+}
