@@ -1,5 +1,5 @@
 function createHeaderElement() {
-  const commonDiv = document.createElement('div');
+  const commonDiv = document.createElement("div");
   commonDiv.innerHTML = `
   <section class="header-container">
   <div class="content">
@@ -46,7 +46,7 @@ function createHeaderElement() {
   return commonDiv;
 }
 function gettext(url) {
-  window.location.href = url
+  window.location.href = url;
 }
 
 // 导出函数，以便其他文件可以引用它
