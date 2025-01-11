@@ -22,11 +22,11 @@ function createHeaderElement() {
         <li>Wooden Fabrication <span class="sub-arrow"></span>
           <div class="hover-info">
             <span><a href="woodensheet.html"> Wooden Sheet</a> </span>
-            <span><a> Wooden Mirror Sheet</a></span>
-            <span><a href="#">Cast Wooden Sheet</a> </span>
-            <span><a href="#">Extruded Wooden Sheet</a> </span>
-            <span><a href="#">Wooden Rod</a> </span>
-            <span><a href="#">Wooden Tube</a></span>
+            <span><a href="woodenmirrorsheet.html"> Wooden Mirror Sheet</a></span>
+            <span><a href="castwoodensheet.html">Cast Wooden Sheet</a> </span>
+            <span><a href="extrudedwoodensheet.html">Extruded Wooden Sheet</a> </span>
+            <span><a href="woodenrod.html">Wooden Rod</a> </span>
+            <span><a href="woodentube.html">Wooden Tube</a></span>
           </div>
         </li>
         <li>Capabilities <span class="sub-arrow"></span>
